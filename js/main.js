@@ -13,8 +13,8 @@ function compareNmber(firstNum = 0, secondNum = 0) {
 console.log(compareNmber());
 
 function showСomparisonNmber() {
-	let firstNum = document.querySelector('#number_1').value;
-	let secondNum = document.querySelector('#number_2').value;
+	let firstNum = +document.querySelector('#number_1').value;
+	let secondNum = +document.querySelector('#number_2').value;
 	let result = document.querySelector('.ba-result__text');
 	result.textContent = compareNmber(firstNum, secondNum);
 }
