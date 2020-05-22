@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Functions</title>
+</head>
+
+<body>
+	<h2>Задача №1</h2>
+	<p>Написать функцию, которая принимает 2 числа и возвращает -1, если первое меньше, чем второе; 1 – если первое больше, чем второе; и 0 – если числа равны.</p>
+	<input type="number" name="number_1" id="number_1" placeholder="Firs number"  >
+	<input type="number" name="number_2" id="number_2" placeholder="Second number"  >
+	<button type="button" data-btn1>Сравнить</button>
+	<p class="ba-result"> Результат: <span class="ba-result__text"></span> </p>
+	<h2>Задача №2</h2>
+	<p>Написать функцию, которая вычисляет факториал переданного ей числа.</p>
+	<input type="number" name="number_3" id="number_3" placeholder="Number"  >
+	<button type="button" data-btn2>Рассчитать факториал</button>
+	<p class="ba-result2"> Результат: <span class="ba-result2__text"></span> </p>
+	<!-- /.ba-result -->
+	<h2>Задача №3</h2>
+	<p>Написать функцию, которая принимает три отдельные цифры и превращает их в одно число. Например: цифры 1, 4, 9 превратятся в число 149.</p>
+	<input type="number" name="number_4" id="number_4" placeholder="Firs number"  >
+	<input type="number" name="number_5" id="number_5" placeholder="Second number"  >
+	<input type="number" name="number_6" id="number_6" placeholder="Third number"  >
+	<button type="button" data-btn3>Создать число</button>
+	<p class="ba-result"> Результат: <span class="ba-result3__text"></span> </p>
+	<h2>Задача №4</h2>
+	<p>Написать функцию, которая принимает длину и ширину прямоугольника и вычисляет его площадь. Если в функцию передали 1 параметр, то она вычисляет площадь квадрата.</p>
+	<input type="number" name="number_7" id="number_7" placeholder="Height"  >
+	<input type="number" name="number_8" id="number_8" placeholder="Width"  >
+	<button type="button" data-btn4>Рассчитать площадь</button>
+	<p class="ba-result"> Результат: <span class="ba-result4__text"></span> </p>
+	<h2>Задача №5</h2>
+	<p>Написать функцию, которая проверяет, является ли переданное ей число совершенным. Совершенное число – это число, равное сумме всех своих собственных делителей.</p>
+	<input type="number" name="number_9" id="number_9" placeholder="Number"  >
+	<button type="button" data-btn5>Проверить число</button>
+	<p class="ba-result"> Результат: <span class="ba-result5__text"></span> </p>
+	<h2>Задача №6</h2>
+	<p>Написать функцию, которая принимает минимальное и максимальное значения для диапазона, и выводит только те числа из диапазона, которые являются совершенными. Используйте написанную ранее функцию, чтобы узнавать, совершенное число или нет. </p>
+	<input type="number" name="number_10" id="number_10" placeholder="Firs number"  >
+	<input type="number" name="number_11" id="number_11" placeholder="Second number"  >
+	<button type="button" data-btn6>Найти совершенные числа</button>
+	<p class="ba-result"> Результат: <span class="ba-result6__text"></span> </p>
+	<h2>Задача №7</h2>
+	<p>Написать функцию, которая принимает время (часы, минуты, секунды) и выводит его на экран в формате «чч:мм:сс».Если при вызове функции минуты и/или секунды не были переданы, то выводить их как 00.</p>
+	<input type="number" name="number_12" id="number_12" placeholder="Hours"  >
+	<input type="number" name="number_13" id="number_13" placeholder="Minutes"  >
+	<input type="number" name="number_14" id="number_14" placeholder="Seconds"  >
+	<button type="button" data-btn7>Показать время</button>
+	<p class="ba-result"> Результат: <span class="ba-result7__text"></span> </p>
+	<h2>Задача №8</h2>
+	<p>Написать функцию, которая принимает часы, минуты и секунды и возвращает это время в секундах.</p>
+	<input type="number" name="number_15" id="number_15" placeholder="Hours"  >
+	<input type="number" name="number_16" id="number_16" placeholder="Minutes"  >
+	<input type="number" name="number_17" id="number_17" placeholder="Seconds"  >
+	<button type="button" data-btn8>Показать время в секундах</button>
+	<p class="ba-result"> Результат: <span class="ba-result8__text"></span> </p>
+	<h2>Задача №9</h2>
+	<p>Написать функцию, которая принимает количество секунд, переводит их в часы, минуты и секунды и возвращает в виде строки «чч:мм:сс».</p>
+	<input type="number" name="number_18" id="number_18" placeholder="Seconds"  >
+	<button type="button" data-btn9>Конвертировать</button>
+	<p class="ba-result"> Результат: <span class="ba-result9__text"></span> </p>
+	<h2>Задача №10</h2>
+	<p>Написать функцию, которая считает разницу между датами. Функция принимает 6 параметров, которые описывают 2 даты, и возвращает результат в виде строки «чч:мм:сс». При выполнении задания используйте функции из предыдущих 2-х заданий: сначала обе даты переведите в секунды, узнайте разницу в секундах, а потом разницу переведите обратно в «чч:мм:сс»</p>
+	<input type="number" name="number_19" id="number_19" placeholder="Hours"  >
+	<input type="number" name="number_20" id="number_20" placeholder="Minutes"  >
+	<input type="number" name="number_21" id="number_21" placeholder="Seconds"  ><br>
+	<input type="number" name="number_22" id="number_22" placeholder="Hours"  >
+	<input type="number" name="number_23" id="number_23" placeholder="Minutes"  >
+	<input type="number" name="number_24" id="number_24" placeholder="Seconds"  >
+	<button type="button" data-btn10>Сравнить даты</button>
+	<p class="ba-result"> Результат: <span class="ba-result10__text"></span> </p>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
