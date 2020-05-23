@@ -169,8 +169,8 @@ function CheckNumberFromRange(num_1 = 0, num_2 = 0) {
 console.log(CheckNumberFromRange());
 
 function showCheckNumberFromRange() {
-	let num_1 = document.querySelector('#number_10').value;
-	let num_2 = document.querySelector('#number_11').value;
+	let num_1 = +document.querySelector('#number_10').value;
+	let num_2 = +document.querySelector('#number_11').value;
 	let result = document.querySelector('.ba-result6__text');
 	result.textContent = CheckNumberFromRange(num_1, num_2);
 
